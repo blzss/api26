@@ -44,7 +44,7 @@ def run_all():
     run(discover())
 def run_suite(suite_name):
     suite = get_suite(suite_name)
-    if isinstance(suite,unittest.TestSuite):
+    if isinstance(sugit push -u origin masterite,unittest.TestSuite):
         run(suite)
     else:
         print('TestSuite不存在')
